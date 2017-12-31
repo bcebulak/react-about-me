@@ -1,0 +1,58 @@
+html {
+  font-family: sans-serif;
+  background-color: #3a393a;
+}
+
+ img:not([src^='https://heliotraining.com']) {
+   max-width: 235px; 
+}
+
+.page-wrap {
+  width: 960px;
+  margin: 0 auto;
+  background-color: 444;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 390px 550px;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.container {
+  position : relative;
+  max-width : 225px;
+  margin:0 auto;
+}
+
+.picture {
+  width: 100%;
+}
+
+/* not working yet 
+className is not the same as class .css
+*/
+.navCss {
+  color: white; 
+  size: 50px; 
+}
+
+
+.caption {
+  position: absolute;
+  top: 30px;
+  width: 75%; 
+  margin: 9px;
+  padding: 5px;
+  color: white;
+  background-color:rgba(0,0,0,0.2);
+  text-align: center;
+  font-size: 15px;
+}
