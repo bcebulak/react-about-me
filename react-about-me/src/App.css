@@ -1,7 +1,30 @@
 html {
   font-family: sans-serif;
-  background-color: #3a393a;
+  /* background-color: #3a393a; */
 }
+
+h1 {
+ font-size: 15px; 
+ text-align: center; 
+}
+
+h2 {
+  font-size: 13px;   
+  text-align: center; 
+}
+
+h3 {
+  font-size: 11px;   
+  text-align: center; 
+}
+
+#share-buttons img {
+  width: 35px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 0;
+  display: inline;
+  }
 
  img:not([src^='https://heliotraining.com']) {
    max-width: 235px; 

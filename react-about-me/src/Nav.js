@@ -5,11 +5,11 @@ class Nav extends Component {
     render() {
     return(
         
-        <div>
+        <h1>
         <a href="./App.js">Bio</a> || 
         <a href="./Resume.js">Resume</a> || 
         <a href="./Projects.js">Projects</a>
-        </div>
+        </h1>
 
         )
     }
