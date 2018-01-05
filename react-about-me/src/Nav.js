@@ -4,12 +4,14 @@ import React, { Component } from 'react';
 class Nav extends Component {
     render() {
     return(
-        
-        <h1>
-        <a href="./App.js">Bio</a> || 
-        <a href="./Resume.js">Resume</a> || 
-        <a href="./Projects.js">Projects</a>
-        </h1>
+        <div>
+                  <br />
+         
+         <h1>Brandon Cebulak</h1>
+         <h2>Web Developer, Salt Lake City, UT</h2>
+         <h3>801-888-8288 - <a href="mailto:bcebulak@msn.com">bcebulak@msn.com</a></h3>
+       <br />
+        </div>
 
         )
     }
